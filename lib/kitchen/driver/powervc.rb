@@ -391,7 +391,7 @@ module Kitchen
       end
 
       def hints_path
-        Ohai::Config[:hints_path]
+        '/etc/chef/ohai/hints/'
       end
 
       def disable_ssl_validation
